@@ -11,17 +11,18 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		int A = sc.nextInt();
+		
 		int B = sc.nextInt();
 		
-		if (A % B == 0 || B % A == 0) {
-			System.out.printf("Os números são multiplos");
+		if (A % B == 0 || B % A == 0 ) {
+			
+			System.out.println("Os números digitados são Multiplos!");
 			
 		}
 		else {
-			System.out.printf("Os número não são multiplos");
 			
+			System.out.println("Os números digitados não são Multiplos!");
 		}
-		
 		sc.close();
 
 	}
